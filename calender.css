@@ -19,7 +19,7 @@ html {
   }
   
   .calendar {
-    width: 40rem;
+    width: 46rem;
     height: 56rem;
     background-image: linear-gradient(150deg,rgb(69,35,193),rgb(77,138,227));;
     box-shadow: 0 0.5rem 3rem rgba(0, 0, 0, 0.4);
@@ -48,8 +48,14 @@ html {
     text-transform: uppercase;
     letter-spacing: 0.2rem;
     margin-bottom: 1rem;
+    display: inline-block;
   }
   
+  .month h2{
+    font-size: 3rem;
+    margin-left: 1rem;
+    display: inline-block;
+  }
   .month p {
     font-size: 1.6rem;
   }
