@@ -21,7 +21,7 @@ html {
 
 .calendar {
     width: 46rem;
-    height: 50rem;
+    height: 56rem;
     background-image: linear-gradient(150deg, rgb(69, 35, 193), rgb(77, 138, 227));
     ;
     box-shadow: 0 0.5rem 3rem rgba(0, 0, 0, 0.4);
@@ -217,4 +217,65 @@ html {
     border-radius: 50%;
     bottom: 0.5rem;
     z-index: 20;
+}
+.app-main {
+    width: 46rem;
+    height: 56rem;
+    padding: 20px;
+    text-align: center;
+    background-image: url('https://c.files.bbci.co.uk/180C5/production/_117610589_raincloud.jpg ');
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+.app-main > * {
+    margin-bottom: 20px;
+}
+
+.input-box {
+    width: 100%;
+    background-color: rgba(245, 244, 244, 0.2);
+    border: none;
+    outline: none;
+    color: #ffffff;
+    font-size: 1.2rem;
+    height: 50px;
+    border-radius: 5px;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.input-box:focus {
+    background-color: rgb(75, 66, 66);
+}
+
+
+.weather-body {
+    display: none;
+    color: #ffffff;
+    padding: 20px;
+    line-height: 2rem;
+    border-radius: 10px;
+    /* background-color: rgba(255,255,255,0.6); */
+    height: 50vh;
+}
+
+.location-details {
+    font-weight: bold;
+}
+
+.weather-status {
+    padding: 20px;
+}
+
+.temp {
+    font-size: 50pt;
+    font-weight: 700;
+    margin: 20px 0;
+    text-shadow: 2px 4px rgba(0,0,0,0.3);
+}
+
+.min-max, .weather {
+    font-size: 12pt;
+    font-weight: 600;
 }
